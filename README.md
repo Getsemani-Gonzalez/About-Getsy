@@ -16,3 +16,16 @@
   <h1>Redes Sociales</h1>
   <p><strong>Instagram:</strong> <a href="https://www.instagram.com/vicctoriagg?igshid=1m9ijfj6qj28o">vicctoriagg</a>
   <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100010154114100">Gethsemane G. Castro</a> 
+
+
+
+<h1 id="watchme">Watch me move</h1>
+<p>
+  This example shows how to use CSS animations to make <code>H1</code>
+  elements move across the page.</p>
+<p>
+  In addition, we output some text each time an animation event fires,
+  so you can see them in action.
+</p>
+<ul id="output">
+</ul>
