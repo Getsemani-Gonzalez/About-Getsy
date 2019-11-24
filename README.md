@@ -15,3 +15,20 @@
   <h1>Redes Sociales</h1>
   <p><strong>Instagram:</strong> <a href="https://www.instagram.com/vicctoriagg?igshid=1m9ijfj6qj28o">vicctoriagg</a>
   <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100010154114100">Gethsemane G. Castro</a> 
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
