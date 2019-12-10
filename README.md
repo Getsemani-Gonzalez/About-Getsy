@@ -15,17 +15,38 @@
   <P><em>- Universidad de Panamà</em>
   <h1>Redes Sociales</h1>
   <p><strong>Instagram:</strong> <a href="https://www.instagram.com/vicctoriagg?igshid=1m9ijfj6qj28o">vicctoriagg</a>
-  <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100010154114100">Gethsemane G. Castro</a> 
-
-
-
-<h1 id="watchme">Watch me move</h1>
+  <p><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100010154114100">Gethsemane G. Castro</>
+    
+  <h1 id="watchme">Watch me move</h1>
 <p>
   This example shows how to use CSS animations to make <code>H1</code>
   elements move across the page.</p>
-<p>
+<p> .slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
   In addition, we output some text each time an animation event fires,
   so you can see them in action.
 </p>
 <ul id="output">
-</ul>
+</ul>  
